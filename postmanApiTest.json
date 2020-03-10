@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "4618ebe3-1095-410f-b5aa-49b6e1ab1561",
+		"name": "bDay",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://LOCALHOST:4008/api/age?id=3642",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://LOCALHOST:4008/api/age?id=3642",
+					"protocol": "http",
+					"host": [
+						"LOCALHOST"
+					],
+					"port": "4008",
+					"path": [
+						"api",
+						"age"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3642"
+						}
+					]
+				},
+				"description": "Run First time when no chache\nobseve  responce time run second time run \nobserve shorter responce time when use 3642 chached "
+			},
+			"response": []
+		},
+		{
+			"name": "http://LOCALHOST:4008/api/ids",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://LOCALHOST:4008/api/ids",
+					"protocol": "http",
+					"host": [
+						"LOCALHOST"
+					],
+					"port": "4008",
+					"path": [
+						"api",
+						"ids"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://LOCALHOST:4008/api/age?id=1055",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://LOCALHOST:4008/api/age?id=1055",
+					"protocol": "http",
+					"host": [
+						"LOCALHOST"
+					],
+					"port": "4008",
+					"path": [
+						"api",
+						"age"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1055"
+						}
+					]
+				},
+				"description": "Empty responce for if no user found"
+			},
+			"response": []
+		}
+	]
+}
